@@ -32,7 +32,7 @@ section{
 }
 
 article{
-	background-color: #ebebeb;
+	background-color: #2db34a;
 	float: left;
 	position: absolute;
 	left: 30px;
@@ -59,8 +59,7 @@ h2 {
 	background-color: #2db34a;
 	float: left;
 	position: absolute;
-	margin-left: auto;
-    margin-right: auto;
+	margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -69,13 +68,11 @@ h2 {
 }
 
 p {
-	background-color: #2db34a;
 	float: left;
-	position: absolute;
-	margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    position: absolute; 
+    margin: auto;
+    background: green;
+    top :0; left: 0; right: 0; bottom: 0;
     text-align: center;
     width: 250px;
     height: 75px;
